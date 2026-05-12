@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIM 도면 공부 체크표</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f7f9fc;
+}
+
+.check-item input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #eef3ff;
+}
+
+.tip {
+  background: #fff7e6;
+  border-left: 5px solid #ffb300;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BIM / 도면 공부 체크표</h1>
+    <div class="subtitle">비전공자용 · 하루 1~1.5시간 루틴</div><div class="card">
+  <h2>1단계 — 워밍업 (10분)</h2>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>어제 공부한 내용 3줄 복습</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>어제 봤던 기호 다시 보기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>용어 1개 설명해보기 (EL, GRID, 급기 등)</label>
+  </div>
+</div>
+
+<div class="card">
+  <h2>2단계 — 영상 공부 (30분)</h2>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>유튜브 강의 1개 보기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>모르는 용어 메모하기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>중요 장면 멈춰서 확인하기</label>
+  </div>
+</div>
+
+<div class="card">
+  <h2>3단계 — 실제 도면 보기 (30분)</h2>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>PDF 도면 열기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>오늘 배운 기호 찾기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>배관 / 덕트 흐름 따라가기</label>
+  </div>
+
+  <div class="check-item">
+    <input type="checkbox" />
+    <label>벽 / 문 / 화장실 위치 확인하기</label>
+  </div>
+</div>
+
+<div class="card">
+  <h2>4단계 — 공부 정리 (10~20분)</h2>
+
+  <textarea placeholder="오늘 새로 알게 된 것, 모르는 용어, 느낀 점 등을 적어보세요."></textarea>
+</div>
+
+<div class="card">
+  <h2>주간 체크표</h2>
+
+  <table>
+    <tr>
+      <th>항목</th>
+      <th>월</th>
+      <th>화</th>
+      <th>수</th>
+      <th>목</th>
+      <th>금</th>
+    </tr>
+
+    <tr>
+      <td>영상 공부</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+    </tr>
+
+    <tr>
+      <td>도면 보기</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+    </tr>
+
+    <tr>
+      <td>기호 복습</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+    </tr>
+
+    <tr>
+      <td>용어 정리</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+    </tr>
+
+    <tr>
+      <td>1시간 이상 공부</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+      <td>□</td>
+    </tr>
+  </table>
+</div>
+
+<div class="card tip">
+  <strong>중요!</strong><br /><br />
+  처음에는 이해보다 "눈에 익숙해지는 것"이 더 중요합니다.<br />
+  도면은 반복해서 볼수록 읽히기 시작해요.
+</div>
+
+<div class="footer">
+  BIM / MEP 공부 루틴 · 꾸준함이 가장 중요합니다.
+</div>
+
+  </div>
+</body>
+</html>
